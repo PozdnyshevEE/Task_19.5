@@ -1,5 +1,5 @@
 function createObject() {
-    const obj = {};
+    const obj = Object.create(null);
     return obj;
 }
 
